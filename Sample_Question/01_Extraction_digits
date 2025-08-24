@@ -1,0 +1,7 @@
+// Extraction Of Number
+
+num=int(input("Enter the number"))          // initialization
+while(num>0):                              //  condition
+  last_digit=num % 10
+  print(last_digit)
+  num= num // 10                         // updation
