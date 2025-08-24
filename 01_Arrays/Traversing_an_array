@@ -1,0 +1,28 @@
+// 1. Using a for loop
+arr = [10, 20, 30, 40, 50]
+for item in arr:
+    print(item)
+
+// 2. Using a for loop with range() and index
+arr = [10, 20, 30, 40, 50]
+for i in range(len(arr)):
+    print(f"Index {i}, Value {arr[i]}")
+
+//3. Using enumerate()
+arr = [10, 20, 30, 40, 50]
+for index, value in enumerate(arr):
+    print(f"Index {index}, Value {value}")
+
+// 4. Using a while loop
+arr = [10, 20, 30, 40, 50]
+i = 0
+while i < len(arr):
+    print(arr[i])
+    i += 1
+// 5. Using list comprehension
+arr = [1, 2, 3, 4, 5]
+squares = [x ** 2 for x in arr]
+print(squares)
+
+
+
